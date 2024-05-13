@@ -171,6 +171,6 @@ class DiceGame:
         elif option == "3":
             self.logout(current_user)
         else:
-            print("/n*******Invalid option. Please try again.*******")
+            print("\n*******Invalid option. Please try again.*******")
             self.menu(current_user)       
 
